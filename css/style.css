@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+
+    width: 600px;
+    height: 600px;
+    margin: 60px auto;
+    border: 2px solid black;
+    cursor: pointer;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+h1{
+    text-align: center;
+}
+#input-container {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+.child{
+ 
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change_color{
+    background-color: blue;
+}
